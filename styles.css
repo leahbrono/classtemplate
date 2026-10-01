@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'TwentiethCenturyMedium' ;
+}
+  
+#searchForm{
+  padding-bottom: 1rem;
+}
+
+ #content{  
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+  /* each drink div holds the image and title. The layout for this is done via a flexbox column. */
+.result{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;  
+  width: 120px; 
+  justify-content: center; 
+}
+
+/* set a rounded corner on the image thumbnails. */
+.result img{
+  border-radius: 1rem;
+}
+
+
+footer{
+  padding: 2rem;
+  
+    font-family: 'TwentiethCenturyLightItalic'
+}
+
+
+nav{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
